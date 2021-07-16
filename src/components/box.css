@@ -1,0 +1,16 @@
+.foto img {
+  animation-name: coba;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+}
+@keyframes coba {
+  from {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  to {
+    transform: scale(0.5);
+    opacity: 50%;
+  }
+}
